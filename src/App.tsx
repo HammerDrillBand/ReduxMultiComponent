@@ -1,9 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ReduxInput from './components/input/ReduxInput';
 import Mult from './components/Mult/Mult';
 import Subt from './components/Subt/Subt';
+import Plus from './components/plus/Plus';
 
 function App() {
   return (
@@ -11,6 +10,7 @@ function App() {
       <ReduxInput/>
       <Mult />
       <Subt/>
+      <Plus/>
     </div>
   );
 }
